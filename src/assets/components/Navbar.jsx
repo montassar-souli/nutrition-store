@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { FaSearch, FaShoppingCart } from "react-icons/fa";
-import LogoNutrition from "../images/icons/nutritionLogo.png";
+import Logo from "../images/icons/logo.jpg";
+import Logo1 from "../images/icons/logo1.png";
+import Logo2 from "../images/icons/logo2.png";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -13,11 +15,11 @@ const Navbar = () => {
       <div className="container mx-auto flex flex-1 items-center justify-between">
         <div className="text-white text-lg font-semibold flex items-center">
           <img
-            src={LogoNutrition}
+            src={Logo2}
             alt="Nutrition Store"
             className="mr-2 w-10 h-10 transition-transform duration-300 hover:scale-110"
           />
-          <h3>Nutrition Store</h3>
+          <h3>Jou Nutrition</h3>
         </div>
         <ul className="flex cursor-pointer">
           <Link
